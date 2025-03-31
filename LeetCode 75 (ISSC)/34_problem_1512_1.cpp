@@ -1,4 +1,3 @@
-
 //1512. Number of Good Pairs
 // Hash Table
 //(class)
