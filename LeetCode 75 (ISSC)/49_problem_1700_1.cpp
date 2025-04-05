@@ -21,7 +21,7 @@ public:
             if (Q.front() == sandwiches[index])
             {
                 Q.pop();
-                ++index;
+                ++index;   
                 rot = 0;
             }
             else
