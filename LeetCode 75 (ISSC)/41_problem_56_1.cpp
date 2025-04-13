@@ -1,4 +1,4 @@
-//56. Merge Sort
+//56. Merge Intervals
 //Class OP
 
 #include <iostream>
