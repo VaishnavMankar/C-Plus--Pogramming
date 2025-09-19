@@ -17,7 +17,7 @@ class Solution {
             }
     
             priority_queue<pair<int, char>> maxHeap;
-    
+            
             // Create heap from frequency table
             for (auto& entry : freq) {
                 maxHeap.push({entry.second, entry.first});

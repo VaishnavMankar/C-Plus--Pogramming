@@ -16,6 +16,3 @@ int main(){
 }
 
 
-
-//git config user.name "VaishnavMankar"
-//git config user.email "vmankat2910@gmail.com"

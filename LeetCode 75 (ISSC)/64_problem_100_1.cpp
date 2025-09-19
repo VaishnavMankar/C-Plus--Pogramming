@@ -1,6 +1,6 @@
 // 100. Same Tree
 //Binary Tree
-
+//Using BSF
 #include <iostream>
 #include <queue>
 
