@@ -43,14 +43,14 @@ int main(int argc, char* argv[]) {
         // Resize the final result matrix to be able to receive the data
         final_C_matrix.resize(N * N);
 
-        cout << "--- Initial 4x4 Matrix A ---" << endl;
+        cout << "Initial 4x4 Matrix A" << endl;
         for(int i=0; i<N; ++i) {
             for (int j=0; j<N; ++j){
                 cout << matrix_A[i*N+j] << "\t";
             }
             cout << endl;
         }
-        cout << "\n--- Initial 4x4 Matrix B (Identity Matrix) ---" << endl;
+        cout << "\nInitial 4x4 Matrix B (Identity Matrix)" << endl;
         for(int i=0; i<N; ++i) {
             for (int j=0; j<N; ++j){
                 cout << matrix_B[i*N+j] << "\t";
@@ -86,7 +86,7 @@ int main(int argc, char* argv[]) {
 
     // Step 5: The master process prints the final result
     if (rank == 0) {
-        cout << "\n--- Final Result Matrix C = A * B ---" << std::endl;
+        cout << "\nFinal Result Matrix C = A * B " << endl;
         for(int i=0; i<N; ++i) {
             for (int j=0; j<N; ++j) {
                 cout << final_C_matrix[i*N+j] << "\t";
